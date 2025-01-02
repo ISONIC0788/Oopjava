@@ -63,6 +63,13 @@ public class Main {
         }
         scan.close();
     }
+    public  int  scrope( int x ){
+        {
+            // the code
+            return x ;
+        }
+
+    }
 
     public static void main(String[] args) {
 //        skip();
@@ -70,6 +77,9 @@ public class Main {
 //        Scan3();
 //        Spacein();
         CalcutePow();
+        Main scopeVar = new Main();
+        scopeVar.scrope(12);
+        System.out.println(scopeVar.scrope(12));
 
     }
 }
