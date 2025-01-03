@@ -25,8 +25,12 @@ public class ReversString {
         }
         System.out.println(rev);
     }
+    static void  showinfo(){
+        System.out.println("This reverse string logic");
+    }
     public static void main(String[] args) {
       revestr();
       revresecond();
+      showinfo();
     }
 }
