@@ -1,4 +1,16 @@
 import java.util.Scanner;
+abstract class myFiture{
+     abstract void characetrstic();
+}
+class People extends  myFiture{
+    void characetrstic(){
+        String myColor = "Black";
+        String mySex = "male";
+        String mylocation = "kgl";
+        System.out.println("hellow my name is ituze agacyo ebedi meleck"+myColor + mySex);
+    }
+
+}
 
 public class Main {
     static  void  skip(  ){
